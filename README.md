@@ -1,4 +1,4 @@
-# F&O Database Design — Data Analyst Assignment
+# F&O Database Design 
 
 ## Overview
 Relational database for storing and analyzing high-volume Futures & Options (F&O) data from NSE, BSE, and MCX using DuckDB, with a normalized 3NF schema.
@@ -83,18 +83,6 @@ vr_assign/
 
 ---
 
-## Running the Notebook
-
-```bash
-# Install conda environment (has all dependencies)
-conda activate ac
-
-# Or install manually:
-pip install kagglehub duckdb pandas numpy matplotlib
-
-# Run notebook (Kaggle data auto-downloads on first run)
-jupyter notebook vr.ipynb
-```
 
 The notebook will:
 1. Auto-download the Kaggle dataset
